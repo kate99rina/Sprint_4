@@ -1,4 +1,4 @@
-package ru.praktikum_services.qa_scooter.order;
+package ru.praktikum_services.qa_scooter.page_objects.order;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

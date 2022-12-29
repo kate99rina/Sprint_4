@@ -7,7 +7,7 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import ru.praktikum_services.qa_scooter.HomePage;
+import ru.praktikum_services.qa_scooter.page_objects.HomePage;
 
 import java.util.List;
 

@@ -5,11 +5,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import ru.praktikum_services.qa_scooter.HomePage;
-import ru.praktikum_services.qa_scooter.order.ConfirmOrderPage;
-import ru.praktikum_services.qa_scooter.order.OrderPage;
-import ru.praktikum_services.qa_scooter.order.OrderRentPage;
-import ru.praktikum_services.qa_scooter.order.SuccessfulOrder;
+import ru.praktikum_services.qa_scooter.page_objects.HomePage;
+import ru.praktikum_services.qa_scooter.page_objects.order.ConfirmOrderPage;
+import ru.praktikum_services.qa_scooter.page_objects.order.OrderPage;
+import ru.praktikum_services.qa_scooter.page_objects.order.OrderRentPage;
+import ru.praktikum_services.qa_scooter.page_objects.order.SuccessfulOrder;
 
 import static org.junit.Assert.assertTrue;
 

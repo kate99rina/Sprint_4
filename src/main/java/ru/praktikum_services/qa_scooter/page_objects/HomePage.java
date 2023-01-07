@@ -30,12 +30,12 @@ public class HomePage {
         return bottomOrderButton;
     }
 
-    //Переместиться к "Вопросы о важном"
+    //Переместиться к элементу
     public void scrollTo(By element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", driver.findElement(element));
     }
 
-    //Получить список вопросов todo
+    //Кликнуть по вопросу с текстом text
     public void clickQuestionByText(String text) {
         String xpath = this.buttonQuestionXpath.replace("(text)", text);
         driver.findElement(By.xpath(xpath)).click();
